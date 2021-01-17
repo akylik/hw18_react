@@ -20,7 +20,7 @@ a, a:hover {
 
 .navigator {
   height: 50px;
-  background-color: #042b3a;
+  background-color: rgb(3, 9, 90);
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -39,5 +39,5 @@ a, a:hover {
 .nav_button:focus
 .nav_button:active {
   color: white;
-  background-color: #004863;
+  background-color: #082ba0;
 }

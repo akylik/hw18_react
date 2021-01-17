@@ -1,0 +1,24 @@
+.photo_container {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photo {
+  margin-top: 25px;
+  max-width: 450px;
+  object-fit: cover;
+  display: flex;
+}
+
+.photo_pic {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.photo_pic:hover,
+.photo_pic:focus {
+  border: 2px solid #1c88ff;
+}

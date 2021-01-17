@@ -1,0 +1,58 @@
+.bg {
+   background-color: black;
+   min-height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+ }
+ .container {
+   background-color: gainsboro;
+   width: 700px;
+   margin: 0 auto;
+   padding: 40px;
+   box-shadow: 0px 0px 40px black;
+   overflow: hidden;
+ }
+ .search {
+   background-color: #cdcdcd;
+   padding: 12px 15px;
+   color: grey;
+   user-select: none;
+ }
+ .search__btn {
+   width: 200px;
+   height: 30px;
+   font-size: 16px;
+   padding: 0px 5px;
+   border: 2px solid white;
+ }
+ .search__btn:hover {
+   border: 3px solid #8282b3;
+   box-shadow: 0 0 8px #a5c3ff;
+   border-radius: 5px;
+ }
+ .header {
+   background-color: goldenrod;
+   padding: 12px 14px;
+   font-weight: bold;
+ }
+ .contacts {
+   background-color: wheat;
+   padding: 6px 15px;
+   border-bottom: 4px solid #ccc;
+ }
+ .name {
+   width: 200px;
+   display: inline-block;
+ }
+ .phone {
+   width: 180px;
+   display: inline-block;
+ }
+ .sex {
+   width: 40px;
+   display: inline-block;
+ }
+ .check {
+   padding-left: 20px;
+ }
+ 
